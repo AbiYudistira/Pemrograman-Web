@@ -7,12 +7,13 @@ if(!isset($_SESSION['username'])){
 
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Layouting_navigasi</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <script src="js/bootstrap.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -28,8 +29,8 @@ if(!isset($_SESSION['username'])){
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                    <div class="col-md-3 text-center">
-                        <button type="button" class="btn btn-outline-warning me-2">Login</button>
+                    <div class="text-end">
+                        <a href="logout.php" class="btn btn-outline-light me-2">Logout</button>
                         <button type="button" class="btn btn-danger">Sign-up</button>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarScroll">
